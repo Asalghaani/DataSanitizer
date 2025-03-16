@@ -3,12 +3,15 @@ from setuptools import setup, find_packages
 setup(
     name='DataSanitizer',
     version='0.1.0',
-    author='',  # Add your name
-    author_email='',  # Add your Email
-    description='',  # Add a brief but complete description of the project.
+    author='Fatemeh Sadat Ghaani', 
+    author_email='Asalghaani@yahoo.com',  
+    description='A Python package for automatic data cleaning, handling missing values, outliers detection, and text standardization.',  
     packages=find_packages(),
     install_requires=[
-        # requirements list
+         'pandas>=1.0.0',
+        'numpy>=1.19.0',
+        'scipy>=1.5.0',
+        'scikit-learn>=0.24.0',
 
     ],
     classifiers=[
